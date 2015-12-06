@@ -1,0 +1,136 @@
+﻿@model GAPT.ViewModel.ShoppingCartViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Shopping Cart";
+}
+
+@section Scripts {
+    <script type="text/javascript">
+
+        $(function () {
+            // Document.ready -> link up remove event handler
+            $(".RemoveLink").click(function () {
+                // Get the id from the link
+                var recordToDelete = $(this).attr("data-id");
+                var PostToUrl = $(this).attr("data-url");
+                if (recordToDelete != '') {
+                    $.post(PostToUrl, { "id": recordToDelete },
+                        function (data) {
+                            // Perform the ajax post
+
+                            // Successful requests get here
+                            // Update the page elements
+                            if (data.ItemCount == 0) {
+                                $('#row-' + data.DeleteId).fadeOut('slow');
+                            } else {
+                                $('#item-count-' + data.DeleteId).text(data.ItemCount);
+                            }
+
+                            $('#cart-total').text(data.CartTotal);
+                            $('#update-message').text(data.Message);
+                            $('#cart-status').text('Cart (' + data.CartCount + ')');
+                        });
+                }
+            });
+
+        });
+    </script>
+}
+<h3>
+    Your cart:
+</h3>
+@*<p class="button">
+        @Html.ActionLink("Checkout >>", "AddressAndPayment", "Checkout")
+    </p>*@
+<div id="update-message">
+</div>
+<table id="cart-summary" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Outfit Name </th>
+            <th>Price (each)</th>
+            <th>Quantity</th>
+            <th></th>
+        </tr>
+    </thead>
+    @{
+        int count = -1;
+        foreach(var item in Model.CartItems)
+        {
+            count++;
+            <tr id="row-@item.RecordId">
+                @if(item.ShoppingCartItem != null)
+                {
+                    if (item.ShoppingCartItem.IsOutfit)
+                    {
+                          <td>
+                              Outfit
+                          </td>  
+                    }
+                    else
+                    {
+                        <td>
+                            Item
+                        </td>
+                    }
+                    
+                    
+                    <td>
+                        <div class="dropdown">
+                            <div class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="true" id="shop-item" onclick="location.href='@Url.Action("Details", item.ShoppingCartItem.IsOutfit ? "Outfits" : "Items", new {@id = item.ShoppingCartItem.ItemId})' ">
+                                @Html.DisplayName(item.ShoppingCartItem.Name)
+                            </div>
+                            @if(item.ShoppingCartItem.IsOutfit)
+                            {
+                                <ul class="dropdown-menu sub-menu" role="menu" aria-labelledby="dropdownMenu1" id="shop-item">
+                                    <li role="presentation" class="dropdown-header">Items</li>
+
+                                    @foreach(var i in Model.Items[count])
+                                    {
+                                        <li role="presentation">
+                                            <a role="menuitem" style="display: inline" tabindex="-1" href="@Url.Action("Details", "Items", new {@id = i.Id})">@i.Name (€@i.Price)</a>
+                                            <div type="button" class="btn btn-warning btn-xs" style="position: absolute; right: 0" onclick="location.href=' @Url.Action("RemoveItemFromOutfit", "ShoppingCart", new {@id = Model.Ids[count].ElementAt(Model.Items[count].IndexOf(i))}) '">Remove</div>
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    </td>
+
+                }
+                @if(item.ShoppingCartItem.Price != -1)
+                {
+                    <td>
+                        @item.ShoppingCartItem.Price
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        Not Avaliable
+                    </td>
+                }
+                <td id="item-count-@item.RecordId">
+                    @item.Count
+                </td>
+                <td>
+                    <a href="#" class="RemoveLink" data-id="@item.RecordId"
+                       data-url='@Url.Content("~/ShoppingCart/RemoveProduct")'>
+                        Remove from cart
+                    </a>
+                </td>
+            </tr>
+
+        }
+    }
+    <tr class="success">
+        <td colspan="4">
+            Total
+        </td>
+        <td id="cart-total">
+            @Model.CartTotal
+        </td>
+    </tr>
+</table>

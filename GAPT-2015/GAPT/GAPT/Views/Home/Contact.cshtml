@@ -1,0 +1,55 @@
+﻿@model GAPT.Models.ContactModels
+
+@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title Us</h2>
+<p></p>
+
+@using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class="form-horizontal", role="form" }))
+{
+        <div class="form-group">
+            @Html.LabelFor(model => model.FirstName, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", placeholder = "Enter your name here", tabindex = 2 })
+                @Html.ValidationMessageFor(model => model.FirstName)
+            </div>
+        </div>
+        <p></p>
+        <div class="form-group">
+            @Html.LabelFor(model => model.LastName, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.LastName, new { @class = "form-control", placeholder = "Enter your last name here", tabindex = 2 })
+                @Html.ValidationMessageFor(model => model.LastName)
+            </div>
+        </div>
+        <p></p>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder = "Enter your email here", tabindex = 2 })
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+        <p></p>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Comment, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextAreaFor(model => model.Comment, new { @class = "form-control", placeholder = "Enter your comment here", tabindex = 2 })
+                @Html.ValidationMessageFor(model => model.Comment)
+            </div>
+        </div>
+        <p></p>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+        }
+
+
+        <address>
+
+        </address>
+
+        <address>
+
+        </address>
