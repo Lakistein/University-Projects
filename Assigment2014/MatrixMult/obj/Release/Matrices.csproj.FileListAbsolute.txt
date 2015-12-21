@@ -1,0 +1,6 @@
+E:\Dropbox\Assigment\Assigment2012\Matrices\bin\Release\Matrices.exe.config
+E:\Dropbox\Assigment\Assigment2012\Matrices\bin\Release\Matrices.exe
+E:\Dropbox\Assigment\Assigment2012\Matrices\bin\Release\Matrices.pdb
+E:\Dropbox\Assigment\Assigment2012\Matrices\obj\Release\Matrices.exe
+E:\Dropbox\Assigment\Assigment2012\Matrices\obj\Release\Matrices.pdb
+E:\Dropbox\Assigment\Assigment2012\Matrices\obj\Release\Matrices.csprojResolveAssemblyReference.cache

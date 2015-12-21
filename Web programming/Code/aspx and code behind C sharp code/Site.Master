@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GuitarStore.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - Guitar Store</title>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+</head>
+<body>
+    <form runat="server">
+
+        <%--Generate top menu--%>
+        <div class="topmenu">
+            <ul>
+                <li><a class="navbar-brand" runat="server" href="~/Default.aspx">Guitar Store</a></li>
+                <li><a runat="server" href="~/InstrumentList">Instruments</a></li>
+                <li><a runat="server" href="~/ShoppingCart" id="cartCount">&nbsp;</a></li>
+                <li><a runat="server" href="~/About">About</a></li>
+
+            </ul>
+        </div>
+
+
+        <%--List all instrument types--%>
+        <div id="InstrumentTypeMenu" class="sidemenu">
+            <b>Instrument types: </b>
+            <asp:ListView ID="InstrumentTypeList"
+                ItemType="GuitarStore.Models.InstrumentType"
+                runat="server"
+                SelectMethod="GetInstrumentTypes">
+                <ItemTemplate>
+                    <br />
+                    <b>
+                        <a href="/InstrumentList.aspx?id=<%#: Item.InstrumentTypeID %>">
+                            <%#: Item.InstrumentTypeName %>
+                        </a>
+                    </b>
+                </ItemTemplate>
+                <ItemSeparatorTemplate>
+                    <br />
+                </ItemSeparatorTemplate>
+            </asp:ListView>
+        </div>
+
+
+        <%--Main content placeholder--%>
+        <div class="mainContent">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Guitar Store</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

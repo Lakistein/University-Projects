@@ -1,0 +1,36 @@
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\bin\Debug\RPNEvaluator.exe.config
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\bin\Debug\RPNEvaluator.exe
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\bin\Debug\RPNEvaluator.pdb
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.Form1.resources
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.Properties.Resources.resources
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.csproj.GenerateResource.Cache
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.exe
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.pdb
+E:\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.csprojResolveAssemblyReference.cache
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\bin\Debug\RPNEvaluator.exe.config
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.exe
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.pdb
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\bin\Debug\RPNEvaluator.exe
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\bin\Debug\RPNEvaluator.pdb
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.csprojResolveAssemblyReference.cache
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.Form1.resources
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.Properties.Resources.resources
+C:\Users\Lazar\Dropbox\Assigment\Assigment2012\RPNEvaluator\obj\Debug\RPNEvaluator.csproj.GenerateResource.Cache
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\bin\Debug\RPNEvaluator.exe.config
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\bin\Debug\RPNEvaluator.exe
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\bin\Debug\RPNEvaluator.pdb
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.csprojResolveAssemblyReference.cache
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.Form1.resources
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.Properties.Resources.resources
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.csproj.GenerateResource.Cache
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.exe
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.pdb
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\bin\Debug\RPNEvaluator.exe.config
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.exe
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.pdb
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\bin\Debug\RPNEvaluator.exe
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\bin\Debug\RPNEvaluator.pdb
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.csprojResolveAssemblyReference.cache
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.Form1.resources
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.Properties.Resources.resources
+C:\Users\Lazar\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\RPNEvaluator\obj\Debug\RPNEvaluator.csproj.GenerateResource.Cache

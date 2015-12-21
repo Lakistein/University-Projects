@@ -1,0 +1,10 @@
+E:\Dropbox\Assigment\Assigment2012\Palindrome\bin\Release\Palindrome.exe.config
+E:\Dropbox\Assigment\Assigment2012\Palindrome\bin\Release\Palindrome.exe
+E:\Dropbox\Assigment\Assigment2012\Palindrome\bin\Release\Palindrome.pdb
+E:\Dropbox\Assigment\Assigment2012\Palindrome\obj\Release\Palindrome.exe
+E:\Dropbox\Assigment\Assigment2012\Palindrome\obj\Release\Palindrome.pdb
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\Palindrome\bin\Release\Palindrome.exe.config
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\Palindrome\bin\Release\Palindrome.exe
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\Palindrome\bin\Release\Palindrome.pdb
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\Palindrome\obj\Release\Palindrome.exe
+E:\Dropbox\University\Semestar 2\Data Structures and Algorithms 1, and Programming Paradigms\Assigment2014\Palindrome\obj\Release\Palindrome.pdb

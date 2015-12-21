@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <InstrumentTypes>
+    <InstrumentType>
+      <InstrumentTypeID>1</InstrumentTypeID>
+      <InstrumentTypeName>Electric Guitars</InstrumentTypeName>
+    </InstrumentType>
+      <InstrumentType>
+        <InstrumentTypeID>2</InstrumentTypeID>
+        <InstrumentTypeName>Acoustic Guitars</InstrumentTypeName>
+    </InstrumentType>
+      <InstrumentType>
+        <InstrumentTypeID>3</InstrumentTypeID>
+        <InstrumentTypeName>Electric Bass</InstrumentTypeName>
+    </InstrumentType>
+      <InstrumentType>
+        <InstrumentTypeID>4</InstrumentTypeID>
+        <InstrumentTypeName>Acoustic Bass</InstrumentTypeName>
+    </InstrumentType>
+  </InstrumentTypes>
+</root>
