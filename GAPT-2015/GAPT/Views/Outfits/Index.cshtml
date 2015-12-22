@@ -1,0 +1,40 @@
+﻿@model IEnumerable<GAPT.Models.Outfit>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <h2>Outfits</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Outfit Name</th>
+                <th>Price</th>
+                <th>Discount</th>
+                <th>New Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var outfit in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(outfit.Name, "Details", "Outfits", new {@id = outfit.Id}, null)</td>
+                    <td>@outfit.Price</td>
+                    <td>@outfit.Discount %</td>
+                    @if (outfit.Discount > 0)
+                    {
+                        <td>@outfit.GetDiscountedPrice()</td>
+                    }
+                    else
+                    {
+                        <td>Item is not discounted</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="btn btn-default">
+        @Html.ActionLink("Back", "Index", "Home")
+    </div>
+</div>

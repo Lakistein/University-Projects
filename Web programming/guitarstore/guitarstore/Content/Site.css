@@ -1,0 +1,41 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+    background-color: beige;
+}
+
+.sidemenu {
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-top: 54px;
+    float: left;
+    width: 185px;
+    height: 100%;
+    background-color: #5b5b5b;
+    font-size: large;
+    font-style: normal;
+    position: fixed;
+}
+
+.topmenu li {
+    font-size: larger;
+    display: inline;
+    padding-right: 20px;
+}
+
+.topmenu {
+    margin-left: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: green;
+}
+
+.mainContent {
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 54px;
+    float: left;
+    max-height: 100%;
+    width: 1002px;
+    background-color: beige;
+}
